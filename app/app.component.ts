@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FirebaseApp } from '@angular/fire';
 
 @Component({
   selector: 'my-app',
@@ -7,9 +6,9 @@ import { FirebaseApp } from '@angular/fire';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular 6';
+  name = 'Angular 8';
 
-  constructor(public app: FirebaseApp) {
+  constructor() {
     
   }
 }
